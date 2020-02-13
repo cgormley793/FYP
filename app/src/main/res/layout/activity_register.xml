@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fyp.RegisterActivity">
+
+    <TextView
+       android:id="@+id/textView_Reg_Title"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:textSize="24dp"
+        android:layout_marginBottom="36dp"
+        android:layout_marginTop="70dp"
+        android:text="Registration"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/editText_fullname"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:hint="Enter Fullname"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/editText_UserEmail"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:textStyle="bold"
+        android:hint="Enter Email"
+        android:inputType="textPersonName"
+
+        />
+
+    <EditText
+        android:id="@+id/editText_Password"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+
+        />
+
+
+    <Button
+        android:id="@+id/button_reg"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:onClick="basicWrite"
+        android:text="Register" />
+
+    <ProgressBar
+        android:id="@+id/progrressBar_UsrReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+</LinearLayout>
